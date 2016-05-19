@@ -95,5 +95,3 @@ finalc2v1p2v1 = finalc2v1p2v1.rename(columns=renamingdictionary)
 
 print('This table shows the combined frequency and percent of craters by ejecta morphology.')
 finalc3v1p3v1 = finalc3v1p3v1.rename(columns=renamingdictionary)
-
-p888 = data.groupby('LATITUDE_CIRCLE_IMAGE_REDUCED').size()
